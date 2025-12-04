@@ -10,15 +10,6 @@ The goals are to:
 - Build baseline and more advanced regression models to predict house prices
 - Compare model performance and interpret the most important features
 
-## Repository structure
-
-```text
-.
-├── House_Sales_in_King_Count_USA_clean.ipynb   # Clean, runnable analysis notebook
-├── data/
-│   └── kc_house_data_NaN.csv                   # Dataset (optional local copy)
-└── README.md                                   # Project documentation
-```
 
 ## 1. Dataset
 
@@ -121,12 +112,3 @@ The cleaned notebook `House_Sales_in_King_Count_USA_clean.ipynb` follows these s
    The notebook will:
    - Look for `data/kc_house_data_NaN.csv`
    - If it's not there, download it from the official IBM URL
-
-## 5. Notes
-
-- This notebook is a cleaned, platform-independent version of the original IBM project notebook.
-- It is designed to be easy to run for visitors to the GitHub repository (Business · Data · AI oriented profile).
-- You can extend it by:
-  - Adding feature engineering (e.g., log-transforming skewed variables)
-  - Trying tree-based models (Random Forest, Gradient Boosting, XGBoost)
-  - Building a small dashboard or report summarizing the findings.
